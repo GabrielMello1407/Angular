@@ -138,22 +138,22 @@ import { ReversePipe } from './pipes/reverse.pipe';
       </label>
       <button type="submit" [disabled]="!profileFormTwo.valid">Submit</button>
     </form>
-    <h2>Injectable Service DI(Dependency Injection)</h2>
+    <h2>*Injectable Service DI(Dependency Injection)</h2>
 
-    <h2>Inject-based dependency injection</h2>
+    <h2>*Inject-based dependency injection</h2>
     <p>Car Listing: {{ display }}</p>
-    <h2>Constructor-based dependency injection</h2>
+    <h2>*Constructor-based dependency injection</h2>
     <p>Car Listing: {{ displayTwo }}</p>
-    <h2>Pipes</h2>
+    <h2>*Pipes</h2>
     <p>{{ loudMessage | uppercase }}</p>
     <p>{{ username | lowercase }}</p>
-    <h2>Formatting data with pipes</h2>
+    <h2>*Formatting data with pipes</h2>
     <ul>
       <li>{{ date | date : 'medium' }}</li>
       <li>Number with "decimal" {{ num | number : '3.2-2' }}</li>
       <li>Currency with "currency" {{ cost | currency }}</li>
     </ul>
-    <h2>Create a custom Pipe(Reverse Pipe)</h2>
+    <h2>*Create a custom Pipe(Reverse Pipe)</h2>
     Reverse Machine: {{ word | reverse }}
   `,
   styles: `
