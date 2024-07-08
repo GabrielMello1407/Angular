@@ -7,7 +7,7 @@ import { Component, Output, EventEmitter } from '@angular/core';
     background-color:#c144eb;
     }
   }`,
-  template: ` <button class="btn" (click)="addItem()">Add Item</button> `,
+  template: ` <button (click)="addItem()">Add Item</button>`,
   standalone: true,
 })
 export class ChildComponent {
